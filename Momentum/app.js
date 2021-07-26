@@ -23,3 +23,9 @@ const player = {
 };
 
 console.log(player.name);
+
+function sayHello(){
+  console.log("Hello!");
+}
+
+sayHello();
