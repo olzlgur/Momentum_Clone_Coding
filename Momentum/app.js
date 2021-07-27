@@ -24,8 +24,14 @@ const player = {
 
 console.log(player.name);
 
-function sayHello(){
-  console.log("Hello!");
+function sayHello(nameOfPerson, age){
+  console.log("Hello my name is " + nameOfPerson + " and I am " + age);
 }
 
-sayHello();
+sayHello("JiHyeok", 24);
+
+function plus(firstNumber, secondNumber){
+  console.log(firstNumber + secondNumber);
+}
+
+plus(8, 60);
