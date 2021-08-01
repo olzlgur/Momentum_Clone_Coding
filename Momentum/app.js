@@ -3,6 +3,11 @@ function calculateKrAge(ageOfForeigner){
   return ageOfForeigner + 22;
 }
 
+function multiple(n)
+{
+  return n * 2;
+}
+
 const krAge = calculateKrAge(age);
 
 console.log(krAge);
