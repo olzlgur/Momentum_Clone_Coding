@@ -1,4 +1,11 @@
-const hellos = document.querySelectorAll(".hello h1");
+const title = document.querySelector(".hello:first-child h1");
 
-title.innterText="hello"
- 
+ function handleTitleClick(){
+   console.log("title was clicked!");
+ }
+
+console.dir(title);
+
+title.style.color="gray";
+
+title.addEventListener("click", handleTitleClick);
