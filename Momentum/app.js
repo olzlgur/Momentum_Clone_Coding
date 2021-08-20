@@ -15,6 +15,6 @@ console.dir(title);
 
 title.style.color="gray";
 
-title.addEventListener("click", handleTitleClick);
-title.addEventListener("mouseenter",handleMouseEnter);
+title.onclick = handleTitleClick;
+title.onmouseenter = handleMouseEnter;
 title.addEventListener("mouseleave", handleMouseLeave);
