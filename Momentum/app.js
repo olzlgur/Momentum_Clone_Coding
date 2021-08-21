@@ -17,4 +17,4 @@ title.style.color="gray";
 
 title.onclick = handleTitleClick;
 title.onmouseenter = handleMouseEnter;
-title.addEventListener("mouseleave", handleMouseLeave);
+title.onmouseleave = handleMouseLeave;
